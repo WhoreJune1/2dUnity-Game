@@ -65,7 +65,7 @@ public class Player : MonoBehaviour
         wallJump = new PlayerWallJumpState(this, stateMachine, "Jump");
 
         primaryAttack = new PlayerPrimaryAttack(this, stateMachine, "Attack");
-
+        //this is a test
     }
 
 
