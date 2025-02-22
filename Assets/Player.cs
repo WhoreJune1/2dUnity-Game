@@ -82,10 +82,13 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        stateMachine.currentState.Update();
+        stateMachine.currentState.Update(); 
     
         CheckForDashInput();
     }
+
+    public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
+
 
     private void CheckForDashInput()
     {
